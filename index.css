@@ -1,0 +1,39 @@
+.card {
+    display: inline-block;
+    border: 1px solid #3e18bc;
+    border-radius: 50px;
+    width: calc(20%);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#fetchButton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#fetchButton:hover {
+    background-color: #45a049;
+}
